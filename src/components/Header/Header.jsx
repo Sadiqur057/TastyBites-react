@@ -4,7 +4,7 @@
 
 const Header = () => {
   return (
-    <div className="w-[90%] md:5/6 lg:w-4/5 mx-auto">
+    <div className="w-[90%] md:5/6 lg:w-4/5 mx-auto my-5 lg:my-10">
       <div className="navbar bg-base-100 gap-4">
         <div className="navbar-start">
           <div className="dropdown">
@@ -38,11 +38,11 @@ const Header = () => {
                 <a className="text-c-header text-base">About</a>
               </li>
               <li>
-                <a className="text-c-header text-base">Search</a>
+                <a className="text-c-header text-base ">Search</a>
               </li>
             </ul>
           </div>
-          <a className="btn btn-ghost text-xl lg:text-3xl font-bold pl-0">
+          <a className="text-xl lg:text-3xl font-bold pl-0 cursor-pointer">
             Tasty Bites
           </a>
         </div>
@@ -63,7 +63,7 @@ const Header = () => {
           </ul>
         </div>
         <div className="navbar-end flex gap-2 lg:gap-3">
-          <div className="flex bg-[#150b2b0d] px-4 lg:px-6 py-3 rounded-3xl ">
+          <div className="bg-[#150b2b0d] px-4 lg:px-6 py-3 rounded-3xl hidden md:flex">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -87,14 +87,14 @@ const Header = () => {
               placeholder="Search"
             />
           </div>
-          <a className="md:w-12 md:h-12  bg-green-400 rounded-full">
+          <a className="w-10 h-10 md:w-12 md:h-12  bg-green-400 rounded-full">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
               strokeWidth="1.5"
               stroke="currentColor"
-              className="w-full p-2"
+              className="w-full p-[6px] md:p-2"
             >
               <path
                 strokeLinecap="round"
