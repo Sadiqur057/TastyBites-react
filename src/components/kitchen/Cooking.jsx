@@ -7,7 +7,7 @@ const Cooking = ({cookingNow, totalTime, totalCalories}) => {
         <table className="table">
           <thead>
             <tr>
-              <th></th>
+              <th className='pr-7'></th>
               <th className="px-0">Name</th>
               <th className="px-6">Time</th>
               <th className="px-0">Calories</th>
