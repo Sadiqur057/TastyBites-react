@@ -1,11 +1,7 @@
-// import React from "react";
-// import PropTypes from "prop-types";
-// import userLogo from "../../assets/images/user.png";
-
 const Header = () => {
   return (
     <div className="w-[90%] md:5/6 lg:w-4/5 mx-auto my-5 lg:my-10">
-      <div className="navbar bg-base-100 gap-4">
+      <div className="navbar bg-base-100 ">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex="0" role="button" className="btn btn-ghost lg:hidden">
@@ -87,7 +83,7 @@ const Header = () => {
               placeholder="Search"
             />
           </div>
-          <a className="w-10 h-10 md:w-12 md:h-12  bg-green-400 rounded-full">
+          <a className="w-10 h-10 md:w-12 md:h-12  bg-green-400 rounded-full cursor-pointer">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
