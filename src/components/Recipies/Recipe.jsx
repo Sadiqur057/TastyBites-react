@@ -6,10 +6,10 @@ const Recipe = ({ recipe, handleAddToCook }) => {
   return (
     <div>
       <div className="card bg-base-100 border-2 border-base-200 rounded-3xl h-full">
-        <figure className="p-4 md:p-6">
+        <figure className="p-4 md:p-5">
           <img className="rounded-2xl" src={recipe_image} alt="Shoes" />
         </figure>
-        <div className="card-body pt-0 ">
+        <div className="card-body pt-0  px-4 md:px-5 ">
           <h2 className="card-title .font-lexend">{recipe_name}</h2>
           <p className="font-fira text-c-secondary">{description}</p>
           <div>
@@ -64,6 +64,7 @@ const Recipe = ({ recipe, handleAddToCook }) => {
 Recipe.propTypes = {
   recipe: PropTypes.object,
   ingredients: PropTypes.array,
+  handleAddToCook: PropTypes.func
 };
 
 export default Recipe;

@@ -20,7 +20,7 @@ const Recipies = ({handleAddToCook}) => {
 };
 
 Recipies.propTypes = {
-  handleAddToCook: PropTypes.function
+  handleAddToCook: PropTypes.func
 };
 
 export default Recipies;
